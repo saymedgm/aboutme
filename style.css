@@ -462,6 +462,7 @@ section.dark .section-title::after{
     font-size: 40px;
     line-height: 120px;
     height: 100px;
+    color: white;
     }
 
 .contact-info .item:hover{
@@ -474,6 +475,8 @@ section.dark .section-title::after{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+i
 
 
 .contact-form input, .contact-form textarea{
