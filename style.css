@@ -132,6 +132,7 @@
 
 .sm a:hover{
   color: #ffdf00;
+  text-decoration: underline;
 }
 
 #home .buttons{
@@ -238,6 +239,8 @@ section{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: khaki;
+  padding: 20px;
 }
 
 .skill{
@@ -261,7 +264,7 @@ section{
   content: "";
   position: absolute;
   height: 6px;
-  background-color: #ffdf00;
+  background-color: green;
   bottom: 0;
 }
 
@@ -475,8 +478,6 @@ section.dark .section-title::after{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-i
 
 
 .contact-form input, .contact-form textarea{
